@@ -65,6 +65,7 @@ button{
     background-color: var(--Brightorange);
     border-style:groove;
     border-color: var(--white);
+    cursor: pointer;
 }
 .suv_button{
     color:var(--Darkcyan);
@@ -74,6 +75,7 @@ button{
     background-color: var(--Darkcyan);
     border-style:groove;
     border-color: var(--white);
+    cursor: pointer;
 }
 .luxury_button{
     color:var(--Verydarkcyan);
@@ -83,4 +85,5 @@ button{
     background-color: var(--Verydarkcyan);
     border-style:groove;
     border-color: var(--white);
+    cursor: pointer;
 }
