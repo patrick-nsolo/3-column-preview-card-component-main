@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Outfit:wght@300;400;500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Lexend Deca', sans-serif;
+    color:var(--white);
+}
+img{
+    max-inline-size: 100%;
+    block-size: auto;
+}
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75); /*paragraphs*/
+    --Verylightgray: hsl(0, 0%, 95%);/*background, headings, buttons*/
+    --white: rgb(255, 255, 255);
+}
+main{
+    width:250px;
+}
+h1{
+    font-family: Big Shoulders Display;
+}
+.sedan_card{
+    background-color: var(--Brightorange);
+    height: 300px;
+    border-radius:7px 7px 0 0;
+}
+.suv_card{
+    background-color: var(--Darkcyan);
+    height: 300px;
+}
+.luxury_card{
+    background-color: var(--Verydarkcyan);
+    height: 300px;
+    border-radius:0 0 7px 7px;
+}
+.card{
+    padding:30px;
+}
