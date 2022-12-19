@@ -21,9 +21,27 @@ img{
 }
 main{
     width:250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1{
     font-family: Big Shoulders Display;
+    margin-top: 20px;
+}
+p{
+    font-size: 0.8rem;
+    width: 200px;
+    margin-top: 20px;
+    line-height: 25px;
+    opacity:0.8;
+}
+button{
+    margin-top: 20px;
+    height:35px;
+    width: 100px;
+    border-style: none;
+    border-radius: 30px;
+    color:var(--Brightorange);
 }
 .sedan_card{
     background-color: var(--Brightorange);
@@ -41,4 +59,28 @@ h1{
 }
 .card{
     padding:30px;
+}
+.sedan_button:hover{
+    color:white;
+    background-color: var(--Brightorange);
+    border-style:groove;
+    border-color: var(--white);
+}
+.suv_button{
+    color:var(--Darkcyan);
+}
+.suv_button:hover{
+    color:white;
+    background-color: var(--Darkcyan);
+    border-style:groove;
+    border-color: var(--white);
+}
+.luxury_button{
+    color:var(--Verydarkcyan);
+}
+.luxury_button:hover{
+    color:white;
+    background-color: var(--Verydarkcyan);
+    border-style:groove;
+    border-color: var(--white);
 }
